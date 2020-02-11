@@ -76,3 +76,9 @@ document.querySelector(".contact p:nth-child(3)").textContent = siteContent["con
 document.querySelector(".contact :last-child").textContent = siteContent["contact"]["email"]
 
 document.querySelector("footer p").textContent = siteContent["footer"]["copyright"]
+
+const navCol = document.querySelectorAll("a");
+
+navCol.forEach( link => {
+  link.style.color = "green";
+});
