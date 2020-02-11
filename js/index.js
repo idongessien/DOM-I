@@ -82,3 +82,12 @@ const navCol = document.querySelectorAll("a");
 navCol.forEach( link => {
   link.style.color = "green";
 });
+const newLink = document.createElement("nav");
+
+newLink.textContent = "Lambda";
+
+document.querySelector("nav").appendChild(newLink);
+
+const x = document.createElement("nav");
+x.textContent = "School rocks!";
+document.querySelector("nav").prepend(x);
