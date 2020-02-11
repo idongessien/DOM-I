@@ -75,4 +75,4 @@ document.querySelector(".contact p").textContent = siteContent["contact"]["addre
 document.querySelector(".contact p:nth-child(3)").textContent = siteContent["contact"]["phone"]
 document.querySelector(".contact :last-child").textContent = siteContent["contact"]["email"]
 
-
+document.querySelector("footer p").textContent = siteContent["footer"]["copyright"]
