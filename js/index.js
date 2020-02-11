@@ -70,5 +70,9 @@ document.querySelector(".bottom-content .text-content:nth-last-child(2) p").text
 document.querySelector(".bottom-content:last-child h4").textContent = siteContent["main-content"]["vision-h4"];
 document.querySelector(".bottom-content:last-child p").textContent = siteContent["main-content"]["vision-content"];
 
+document.querySelector(".contact h4").textContent = siteContent["contact"]["contact-h4"];
+document.querySelector(".contact p").textContent = siteContent["contact"]["address"]
+document.querySelector(".contact p:nth-child(3)").textContent = siteContent["contact"]["phone"]
+document.querySelector(".contact :last-child").textContent = siteContent["contact"]["email"]
 
 
