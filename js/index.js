@@ -91,3 +91,15 @@ document.querySelector("nav").appendChild(newLink);
 const x = document.createElement("nav");
 x.textContent = "School rocks!";
 document.querySelector("nav").prepend(x);
+
+const newH4Col = document.querySelector(".main-content h4");
+
+const btn = document.querySelector("button");
+
+btn.addEventListener('mouseover', function() {
+  newH4Col.style.color = "red";
+})
+
+btn.addEventListener('mouseout', function () {
+  newH4Col.style.color = "black";
+})
